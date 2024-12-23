@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 210px;
+}
+
+#start,
+#stop {
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    width: 100px;
+    font-size: 17px;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+#start:hover,
+#stop:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
